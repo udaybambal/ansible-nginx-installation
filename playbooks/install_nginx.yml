@@ -1,0 +1,10 @@
+---
+- name: Install and configure Nginx
+  hosts: {{inventory}}
+  become: true
+
+  tasks:
+    - name: Include Nginx role
+      include_role:
+        name: nginx
+

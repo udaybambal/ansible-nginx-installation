@@ -1,1 +1,10 @@
-..
+---
+# Default variables for Nginx role
+
+nginx_package: nginx  # Package name for Nginx installation
+nginx_service_name: nginx  # Service name for Nginx
+nginx_config_path: /etc/nginx/nginx.conf  # Path to the main Nginx configuration file
+nginx_sites_available_path: /etc/nginx/sites-available  # Path to Nginx sites-available directory
+nginx_sites_enabled_path: /etc/nginx/sites-enabled  # Path to Nginx sites-enabled directory
+nginx_default_site_config: default.conf  # Default configuration file for the default site
+
