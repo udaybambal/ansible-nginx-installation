@@ -1,6 +1,6 @@
 server {
     listen 80;
-    server_name {{ inventory }};
+    nginx_servers {{ inventory }};
 
     location / {
         root /var/www/html;
