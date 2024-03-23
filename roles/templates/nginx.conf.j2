@@ -1,6 +1,6 @@
 server {
     listen 80;
-    inventory {{ inventory }};
+    server_name {{ inventory }};
 
     location / {
         root /var/www/html;
